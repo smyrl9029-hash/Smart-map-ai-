@@ -1,0 +1,17 @@
+name: smart_map_ai
+description: Smart Map with AI search
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.0
+  speech_to_text: ^6.6.0
+
+flutter:
+  uses-material-design: true
